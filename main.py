@@ -3,8 +3,8 @@ class Calculator:
         self.symbol = symbol
         self.number = number
 
-    def add(self) -> float:
-        ...
+    def add(self, sk: float) -> float:
+        return self.symbol + sk #Artūras :)
 
     def sub(self) -> float:
         ...
